@@ -1,0 +1,7 @@
+node_modules/
+lib/
+/data/
+.queues
+yarn-error.log
+/.vscode
+/tests/compiled
