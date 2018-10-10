@@ -1,3 +1,5 @@
+// Controls the all flow related to the instance of the Kettle
+
 import { Pump, TwoWayValve, ThreeWayValveL, Heater } from '../outputs';
 import { TempSensor } from '../sensors';
 
@@ -22,15 +24,23 @@ export class Kettle {
 		this.heater = new Heater(heaterAddress);
 	}
 
-	public transfer(destination) {
-		// comment
+	public transferToNext() {
+		// Transfer contents of kettle to next kettle on hierarchy
 	}
 
 	public heatTo(temperature) {
-		// comment
+		// Controlled by a PID to heat to a certain temp
+	}
+
+	public maintainTemp(temperature) {
+		// Does what it says
 	}
 
 	public recirculate(flowRate) {
-		// comment
+		// Does what it says
+	}
+
+	public CIP() {
+		// When kettle is empty of wort remove grain and run acid and rinse water loop
 	}
 }

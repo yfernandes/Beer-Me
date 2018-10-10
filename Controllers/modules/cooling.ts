@@ -1,3 +1,7 @@
+// This module is responsible for controlling temperatures when said temperatures require cooling.
+// Passive or Active cooling for that matter.
+// Both Brewhouse and Fermenters shall be controlled with this class
+
 import { TempSensor, FlowSensor } from '../sensors';
 import { TwoWayValve } from '../outputs';
 
@@ -14,5 +18,18 @@ export class Cooling {
 		this.tempSensor2 = new TempSensor (TmpSnsAddress2);
 		this.valve       = new TwoWayValve(VlvAddress);
 		this.flowMeter   = new FlowSensor(flwSns);
+	}
+
+	public	coolFermenter() {
+		// Regulates temperature inside fermenter jacket using glycol chiller
+	}
+
+	public chiller() {
+		// Dual stage chiller:
+			// First plate chiller: Passive. Responsible for exchanging temperature with boiling wort to hopefully lower the ammount
+			// of energy required to heat strike and sparge water
+
+			// Second Plate chiller: Active. Responsible for achieving proper yeast pitching temperatures.
+			// Exchanges temperature against glycol chiller
 	}
 }

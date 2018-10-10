@@ -1,6 +1,3 @@
-import { Kettle } from './modules/kettle';
-import { GrainHandler } from './modules/grains';
-import { Cooling } from './modules/cooling';
 /*
 
 RPI
@@ -9,6 +6,10 @@ RPI
 - Configure Serial Communication
 
 */
+
+import { Kettle } from './modules/kettle';
+import { GrainHandler } from './modules/grains';
+import { Cooling } from './modules/cooling';
 
 export class Brewhouse {
 

@@ -1,3 +1,5 @@
+// This module is responsible for Malt Milling and Handling (Transfer to Mash Tun).
+
 import { TwoWayValve } from '../outputs';
 import { WeightSensor } from '../sensors';
 
@@ -14,4 +16,14 @@ export class GrainHandler {
 		this.valveSilo1 = new TwoWayValve(VlvAddress1);
 		this.valveSilo2 = new TwoWayValve(VlvAddress2);
 	}
+
+	public Mill() {
+		// Function receives recipe in which specifies where the malt is stored and its weight,
+		// and starts mill through given address
+	}
+
+	public Auger() {
+		// Gets all milled malt from secondary silo and transfers to Mash Tun
+	}
+
 }

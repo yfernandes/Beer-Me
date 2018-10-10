@@ -11,6 +11,8 @@ export class Brew {
 	}
 
 	// Milling
+		// Function receives recipe in which specifies where the malt is stored and its weight,
+		// and starts mill through given address
 
 	// Heating Strike Water
 
