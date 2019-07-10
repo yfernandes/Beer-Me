@@ -1,0 +1,26 @@
+doctype html
+html
+	head
+		meta(charset='UTF-8')
+		title Brew Calc
+		style
+			include index.css
+	body
+		header(class="Menu")
+			ul
+				li Inicio
+				li Consumo de agua
+				li Dimensionamento da Cozinha
+				li Dimensionamento eletrico
+
+		.box
+			.static Static Inputs: 
+				form
+				| First name:				
+				input(type='text' name='firstname')
+				br
+				|   Last name:
+				input(type='text' name='lastname')
+				br
+				input(type='submit' value='Calcular!')
+				

@@ -1,4 +1,4 @@
-class Sensor {
+export class Sensor {
 
 	public address;
 	constructor (address) {

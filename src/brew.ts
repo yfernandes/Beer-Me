@@ -1,5 +1,5 @@
 import { Brewhouse } from './Controllers/brewhouse';
-import { Recipe } from './parser';
+import { Recipe } from './Recipe/parserold';
 
 export class Brew {
 	public Brewhouse: Brewhouse;

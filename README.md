@@ -216,16 +216,39 @@ The final version of this software should to be able to understand a recipe, get
 
 ## Bill Of Material
 
-- Arduino (x8)
+### Eletronics
+
+- Arduino Mega (x1)
 - RaspBerry Pi (x1)
 - Flow Meter (X6)
 - Temperature Sensor (x13)
 - Weight Sensor (x5)
 - Valve Actuator (x13)
-- PID (x4)
 - ESC (x5)
 - Relay (x2)
+- Solid State Relay (x3)
+- Heater ULWD (x3)
+- Heater (x3)
 
+### Hidraulics
+
+- Check Valve (x9)
+- 3-Way Valve (x6)
+- Modulating 2-Way Valve (x4)
+- 2-Way Valve (x14)
+- ButterFly Valve (x2)
+- Pump (x5)
+- Plate Chiller (x2)
+- Filter
+
+### Misc
+
+- Malt Mill
+- Motor
+- Air Blower
+- Filter Body (x4)
+- Filter (x4)
+  
 ## Others
 
 Ph da agua

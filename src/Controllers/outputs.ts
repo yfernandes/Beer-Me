@@ -1,4 +1,4 @@
-class OutputClass {
+export class OutputClass {
 
 	public address;
 	constructor(address) {

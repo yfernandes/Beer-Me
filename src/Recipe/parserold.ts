@@ -121,7 +121,5 @@ export class Recipe {
 	// End Class
 }
 
-/*
-const myRecipe = new Recipe('./Recipe/recipe.xml');
+const myRecipe = new Recipe('recipeFiles/recipe.xml');
 console.log(myRecipe);
-*/
